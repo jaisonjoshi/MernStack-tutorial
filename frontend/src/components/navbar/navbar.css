@@ -1,0 +1,27 @@
+.navbar{
+    
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+.nav-brand h2{
+    color: blueviolet;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+.btn{
+    text-align: center;
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+.btn:hover{
+   
+    background-color: rgb(185, 139, 228);
+}
