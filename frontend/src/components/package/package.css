@@ -1,0 +1,15 @@
+.packageDetails{
+    width: 30%;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(242, 228, 255);
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px blueviolet;
+    transition: all ease-in-out 0.3s;
+}
+.packageDetails:hover{
+    background-color: rgb(168, 76, 255);
+    color: white;
+    
+}

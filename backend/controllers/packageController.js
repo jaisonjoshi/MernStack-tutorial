@@ -7,6 +7,17 @@ const getPackages = async (req,res) => {
 }
 
 
+const addPackage = async (req,res) => {
+    const {title, description, price} = req.body;
+
+    try {
+        const workout = await Workout.create({title, description, price});
+        res.status(200).json(workout);
+    } catch (error) {
+        res.status(400).json({error : error.message})
+    }
+}
+
 module.exports = {
-    getPackages
+    getPackages, addPackage
 }

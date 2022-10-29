@@ -1,0 +1,6 @@
+.packages{
+    display: flex;
+    gap: 1rem;
+    padding: 5rem;
+    justify-content: space-around;
+}
